@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "battery-controls"
+version = "0.1.0"
+description = ""
+authors = ["tekritesh <ritesh.tekriwal03@gmail.com>"]
+readme = "README.md"
+packages = [{include = "battery_controls"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pandas = "^2.0.3"
+pybamm = "^23.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
